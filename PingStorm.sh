@@ -23,6 +23,7 @@ source ping_store_results.sh
 
 source load_results.sh
 
+source show.sh
 
 
 
