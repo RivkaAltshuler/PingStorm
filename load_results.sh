@@ -9,8 +9,12 @@ done < sorted_results
 
 
 last_index=$(( ${#results_array[@]} - 1 ))
-min=$(echo "${results_array[0]}" | awk '{print $2}')
-max=$(echo "${results_array[$last_index]}" | awk '{print $2}')
+
+first_line="${results_array[0]}"
+last_line="${results_array[$last_index]}"
+
+IFS=' ' read -r min_web min <<< "$first_line"
+IFS=' ' read -r max_web max <<< "$last_line"
 
 
 
