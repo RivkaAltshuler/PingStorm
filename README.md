@@ -1,5 +1,7 @@
 # PingStorm
 
+**Note: This is a simplified exercise/assignment, not a production-ready tool.**
+
 PingStorm is a Bash tool that measures and compares internet latency to several online services. It simulates a basic "speed test" by checking how quickly websites respond to a ping, then analyzes and visualizes the results.
 
 ## Usage
