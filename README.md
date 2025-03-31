@@ -1,18 +1,6 @@
 # PingStorm
 
-PingStorm is a Bash tool that measures and compares internet latency to several major online services. It simulates a basic "speed test" by checking how quickly websites respond to a ping, then analyzes and visualizes the results.
-
-## Features
-
-* **Target Service List:** Includes a predefined list of major online platforms (e.g., google.com, facebook.com, tiktok.com). The tool loops through each service for testing.
-    
-* **Ping Execution:** Sends multiple pings to each domain and extracts the average latency. It handles errors gracefully (e.g., unreachable host).
-    
-* **Result Analysis:** Identifies the fastest and slowest responding services, calculates an overall average latency, and produces a sorted ranking by speed.
-    
-* **Terminal Visualization:** Displays latency data in a user-friendly format using aligned text or ASCII bar charts. The fastest and slowest results are visually distinguished.
-      
-* **Logging System:** Logs all key actions and results to a central file (`pingstorm.log`) with timestamps and module identifiers.
+PingStorm is a Bash tool that measures and compares internet latency to several online services. It simulates a basic "speed test" by checking how quickly websites respond to a ping, then analyzes and visualizes the results.
 
 ## Usage
 
