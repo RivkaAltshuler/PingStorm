@@ -20,7 +20,9 @@ if [[ ! -f "$domains_file" ]]; then
 fi
 
 source ping_store_results.sh
-results_array=$(cat $results_file | sort -k 2 -n)
 
-echo "$results_array"
+source load_results.sh
+
+
+
 
